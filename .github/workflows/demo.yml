@@ -37,7 +37,7 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
-            name: build-artifacs
+            name: build-artifacts
       - name: check artifacts
         run: |
           echo "Below are the artifacts downloaded"
